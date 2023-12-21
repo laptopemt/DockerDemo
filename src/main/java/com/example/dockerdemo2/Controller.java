@@ -11,4 +11,10 @@ public class Controller {
     {
         return "Hello World from Spring Boot";
     }
+
+    @GetMapping("api/v1/update")
+    public String updateMessage()
+    {
+        return "This is an updated message";
+    }
 }
